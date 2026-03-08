@@ -1,0 +1,111 @@
+body{
+    font-family: Arial;
+    margin:0;
+    background:#fff0f6;
+    }
+    
+    /* HEADER */
+    
+    header{
+    background:#eda6ca;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    }
+    
+    .logo{
+    height:120px;
+    }
+    
+    nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+    }
+    
+    /* HERO */
+    
+    .hero{
+    background:#ffb6c1;
+    text-align:center;
+    padding:60px;
+    color:#5a0033;
+    }
+    
+    /* CONTENT */
+    
+    .content{
+    padding:40px;
+    text-align:center;
+    }
+    
+    /* DOUGHNUT CARDS */
+    
+    .doughnut-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    }
+    
+    .doughnut-card{
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    }
+    
+    .doughnut-card img{
+    width:200px;
+    border-radius:10px;
+    }
+    
+    /* CONTACT FORM */
+    
+    form{
+    max-width:400px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    }
+    
+    input, textarea{
+    margin:10px 0;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid #ccc;
+    }
+    
+    button{
+    background:#eda6ca;
+    color:white;
+    border:none;
+    padding:10px;
+    border-radius:5px;
+    }
+    
+    /* FOOTER */
+    
+    footer{
+    background:#eda6ca;
+    color:white;
+    text-align:center;
+    padding:10px;
+    margin-top:40px;
+    }
+    
+    /* MOBILE */
+    
+    @media (max-width:768px){
+    
+    header{
+    flex-direction:column;
+    }
+    
+    nav{
+    margin-top:10px;
+    }
+    
+    }
